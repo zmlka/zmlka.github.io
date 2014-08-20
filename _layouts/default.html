@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta http-equiv="cache-control" content="max-age=3600">
+  <title>zmlka – {% if page.title %} {{ page.title }} | {% endif %}</title>
+  <meta name="keywords" content="{{page.tags}}">
+  <meta name="description" content="{{ page.snippet}}">
+  <meta name="author" content="Martin Zemlicka">
+
+  <link rel="stylesheet" href="stylesheets/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+<body>
+  <div id="site">
+    <header>
+      <h1>The personal website of <a href="/">Martin Zemlicka</a>. <br>Thinking about objects.</h1>
+      <h1>There's also a <a href="http://www.undisciplinary.com">wiki</a> and <a href="https://www.facebook.com/zmlkazmlka">facebook</a>.</h1>
+    </header>
+    <nav class="menu">
+      <ul>
+        <li><a href="/">things</a></li>
+        <li><a href="/about">about</a></li>
+        <li><a href="/cv">cv</a></li>
+      </ul>
+    </nav>
+    <section class="default">
+
+      {{content}}
+
+    </section>
+    <footer>
+      <p>
+      This project is maintained by <a href="http://zmlka.com">Martin Zemlicka</a></br>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>

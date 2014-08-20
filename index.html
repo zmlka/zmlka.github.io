@@ -1,1 +1,14 @@
-hello world
+---
+layout: default
+title: things
+---
+
+{% for post in site.posts %]
+
+  <article>
+    <h2 class="things-h2"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p class="things-snippet">{{ post.snippet }}<p>
+    <p class="things-tags">{{ post.tags }}</p>
+  </article>
+
+{% endfor %}

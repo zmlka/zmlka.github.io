@@ -1,0 +1,152 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 11px;
+  line-height: 17.2px;
+  background: #fff;
+  color: #000;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a,
+a:hover,
+a:active,
+a:visited {
+  outline: 0px;
+  border-bottom: #7A378B solid 1px;
+}
+a:hover {
+  color: #7A378B;
+}
+p{
+  margin-bottom: 20px;
+}
+
+ul, ol{
+  margin-bottom: 20px;
+}
+li{
+  margin-left: 4%;
+  margin-bottom: 0.3rem;
+}
+img {
+  outline: 0;
+  border: 0;
+}
+
+h1, h2, h3{
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:normal;
+  letter-spacing: 1px;
+  text-decoration:none;
+}
+h1 {
+  font-size: 14px;
+  line-height: 22px;
+  margin:0 0 20px 0;
+
+}
+h2 {
+  font-size: 11px;
+  font-weight:bold;
+  margin:0 0 20px 0;
+  text-transform:uppercase;
+}
+h3 {
+  font-size: 11px;
+  margin:0 0 20px 0;
+  text-transform:uppercase;
+}
+
+blockquote{
+  padding-left: 15px;
+  border-left: #c0c0c0 solid 1px;
+  margin-left: 0px;
+}
+
+/* HEADER */
+
+header h1{
+  font-size: 20px;
+  line-height: 40px;
+}
+
+/* NAV */
+
+nav {
+  overflow: hidden;
+  text-transform:uppercase;
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+}
+nav ul{
+  margin-bottom: 0px;
+}
+nav li {
+  list-style: none;
+  margin-right: 20px;
+  font-weight: bold;
+  float: left;
+}
+nav li a.active {
+  border-bottom: 1px solid #000;
+  color: #7A378B;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 20px;
+  border-top: 1px solid #8C8C8C;
+  font-size: 10px;
+  color: #8C8C8C;
+}
+footer p{
+  letter-spacing: 1px;
+}
+footer a {
+  color: #7A378B;
+}
+footer a:hover {
+  color: #8C8C8C;
+}
+
+/* SECTION */
+
+section.default{
+  margin-top: 40px;
+}
+
+/* things list */
+
+h2.things-h2{
+  margin-bottom: 5px;
+}
+p.things-snippet{
+  margin-bottom:0px;
+}
+p.things-tags{
+  margin-bottom:10px;
+  color:#B8B8B8;
+}
+
+/* div IDs*/
+
+#site{
+  max-width:520px;
+  padding:80px 4% 20px 4%;
+}
+
+.footnotes{
+  margin-top: 40px;
+}
