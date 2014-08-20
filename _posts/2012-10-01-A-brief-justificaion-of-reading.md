@@ -1,8 +1,9 @@
 ---
+title: A Brief Justification of Reading (history)
 layout: post
 snippet: Essay form of a short presentation on why architects should read
 tags: presentation
-----
+---
 
 This is brief recollection in essay form of a short presentation that I gave
 on Thursday, October 18th at the kick off session of the
