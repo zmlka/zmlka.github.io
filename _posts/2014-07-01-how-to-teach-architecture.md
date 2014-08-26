@@ -2,7 +2,7 @@
 title: How to teach architecture?
 layout: post
 snippet: A panel discussion on architectural education
-tags: published
+tags: presentation
 ---
 
 Participated in a panel discussion on architectural education featuring Eugene
