@@ -1,6 +1,7 @@
 ---
-Title: About
-Snippet: about zmlka.com
+title: About
+snippet: about zmlka.com
+layout: post
 ----
 
 > Contradictions are not avoided.
