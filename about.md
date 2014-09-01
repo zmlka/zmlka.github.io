@@ -1,8 +1,8 @@
 ---
+layout: post
 title: About
 snippet: about zmlka.com
-layout: post
-----
+---
 
 > Contradictions are not avoided.
 >
