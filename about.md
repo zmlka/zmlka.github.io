@@ -8,7 +8,7 @@ snippet: about zmlka.com
 >
 > <cite>Rem Koolhaas</cite>. S, M, L, XL. Page xix.
 
-This is a «personal» website of Martin ̌Zemlicka (with diacritics: Žemlička),
+This is a «personal» website of Martin Zemlicka (with diacritics: Žemlička),
 meaning that the intention is to mainly be a dumping ground for things done by
 its creator.
 
